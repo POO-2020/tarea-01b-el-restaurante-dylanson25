@@ -1,9 +1,4 @@
-import Producto from './Producto.js'
-import Precio from './Precio.js'
-import ElementoPedido from './ElementoPedido.js'
-import Fecha from './Fecha.js'
-import Tiempo from './Tiempo.js'
-class Pedido{
+export default class Pedido{
     constructor(fecha, hora, cliente){
         this.elePedidos = new Array()
         this.fecha = fecha 
