@@ -1,4 +1,10 @@
 export default class Pedido{
+    /**
+     * 
+     * @param {number} fecha fecha en la que se pidio el pedido
+     * @param {number} hora hora a la que se hizo el pedido
+     * @param {string} cliente persona que hizo el pedido
+     */
     constructor(fecha, hora, cliente){
         this.elePedidos = new Array()
         this.fecha = fecha 

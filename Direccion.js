@@ -1,4 +1,14 @@
 export default class Direccion{
+    /**
+     * 
+     * @param {strin} calle 
+     * @param {number} noEx numero exterior 
+     * @param {number} noIn numero interior 
+     * @param {string} colonia 
+     * @param {number} codigoP codigo postal  
+     * @param {string} ciudad 
+     * @param {string} municipio 
+     */
     constructor(calle, noEx, noIn, colonia, codigoP, ciudad, municipio ){
         this.calle = calle
         this.noEx = noEx
